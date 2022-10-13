@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "MinigapLight";
+    src: url(/public/fonts/MinigapLight.woff2);
+}
+
+@font-face {
+    font-family: "MinigapBold";
+    src: url(/public/fonts/MinigapBold.woff2);
+}
+
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-sansBold font-normal
+    }
+    
+    h1 {
+        @apply text-[72px] leading-[72px]
+    }
+    
+    h2 {
+        @apply text-[40px] leading-[42px]
+    }
+    
+    h3 {
+        @apply text-[32px] leading-9
+    }
+    
+    h4 {
+        @apply text-2xl
+    }
+}
