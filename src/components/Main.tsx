@@ -1,3 +1,9 @@
+import Hero from './Hero';
+
 export default function Main() {
-	return <main className='grow shrink-0 basis-auto'>Main</main>;
+	return (
+		<main className='flex-col grow shrink-0 basis-auto'>
+			<Hero />
+		</main>
+	);
 }
