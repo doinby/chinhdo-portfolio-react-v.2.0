@@ -2,14 +2,15 @@
   "name": "chinhdo-portfolio-react-v.2.0",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev-fe": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev-be": "netlify function:serve"
   },
   "dependencies": {
     "@netlify/functions": "^1.4.0",
+    "@octokit/core": "^4.2.0",
     "@styled-icons/entypo-social": "^10.46.0",
     "@types/node": "^14.18.42",
     "react": "^18.2.0",
