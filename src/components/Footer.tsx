@@ -1,6 +1,7 @@
 import { GithubWithCircle as Github } from '@styled-icons/entypo-social';
 import { LinkedinWithCircle as Linkedin } from '@styled-icons/entypo-social';
 import { TwitterWithCircle as Twitter } from '@styled-icons/entypo-social';
+import { MailWithCircle as Mail } from '@styled-icons/entypo-social';
 
 export default function Footer() {
 	return (
@@ -15,7 +16,9 @@ export default function Footer() {
 				<a href='https://twitter.com/doinby'>
 					<Twitter className='social-links' size='32' title='Twitter Link' />
 				</a>
-				/* Email */
+				<a href='mailto:chinh@doinby.co'>
+					<Mail className='social-links' size='32' title='E-mail Link' />
+				</a>
 			</section>
 		</footer>
 	);
