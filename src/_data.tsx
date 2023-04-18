@@ -1,20 +1,17 @@
 export const repoData = [
 	{
+		owner: 'chingu-voyages',
 		name: 'Nanum Movie App',
-		repoUrl: 'https://github.com/chingu-voyages/v41-geckos-team-18',
 		slug: 'v41-geckos-team-18',
-		liveUrl: 'https://movie-app-geckos-18.netlify.app/',
 	},
 	{
+		owner: 'doinby',
 		name: 'Nation Flags',
-		repoUrl: 'https://github.com/doinby/nation-flags-react-typescript',
 		slug: 'nation-flags-react-typescript',
-		liveUrl: 'https://nation-flags.co/',
 	},
 	{
+		owner: 'doinby',
 		name: 'Currency Conversion App',
-		repoUrl: 'https://github.com/doinby/currency-conversion-react',
 		slug: 'currency-conversion-react',
-		liveUrl: 'https://cc-react.co/',
 	},
 ];
